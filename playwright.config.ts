@@ -37,7 +37,8 @@ export default defineConfig({
     navigationTimeout: 60 * 1000, // 60000ms
     actionTimeout: 15 * 1000, // 15000ms
     trace: 'on-first-retry',
-    baseURL: 'https://loginxp.vercel.app'
+    baseURL: 'https://loginxp.vercel.app',
+    video: 'on'
   },
 
   /* Configure projects for major browsers */
